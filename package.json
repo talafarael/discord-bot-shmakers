@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "discordx": "^11.12.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  },
+  "name": "discord-bot-shmakers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talafarael/discord-bot-shmakers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talafarael/discord-bot-shmakers/issues"
+  },
+  "homepage": "https://github.com/talafarael/discord-bot-shmakers#readme",
+  "description": ""
+}
